@@ -1,0 +1,205 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (allocation.cpp:44), pid=8028, tid=8132
+#
+# JRE version:  (18.0.2.1+1) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (18.0.2.1+1-1, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=UTF-8 --module-path=D:\UDMP-Java\Bai Tap\Duan\build\classes EduSys.ui.MainJFrame
+
+Host: Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz, 4 cores, 3G,  Windows 10 , 64 bit Build 19041 (10.0.19041.3393)
+Time: Thu Oct  5 21:27:13 2023 SE Asia Standard Time elapsed time: 0.245476 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000026f88780510):  JavaThread "Unknown thread" [_thread_in_vm, id=8132, stack(0x000000fa4ef00000,0x000000fa4f000000)]
+
+Stack: [0x000000fa4ef00000,0x000000fa4f000000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6993aa]
+V  [jvm.dll+0x7f46dd]
+V  [jvm.dll+0x7f5fee]
+V  [jvm.dll+0x7f66a3]
+V  [jvm.dll+0x25cf1f]
+V  [jvm.dll+0xb31af]
+V  [jvm.dll+0x2f7f89]
+V  [jvm.dll+0x7c32db]
+V  [jvm.dll+0x38be61]
+V  [jvm.dll+0x7a2023]
+V  [jvm.dll+0x40dc3f]
+V  [jvm.dll+0x40f611]
+C  [jli.dll+0x526b]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17344]
+C  [ntdll.dll+0x526b1]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffed008e550, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000026f88780510 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=8132, stack(0x000000fa4ef00000,0x000000fa4f000000)]
+
+Threads with active compile tasks:
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap address: 0x0000000000000000, size: 0 MB, Compressed Oops mode: 32-bit
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+ CardTable entry size: 512
+ Card Set container configuration: InlinePtr #cards 5 size 8 Array Of Cards #cards 12 size 40 Howl #buckets 4 coarsen threshold 1843 Howl Bitmap #cards 512 size 80 coarsen threshold 460 Card regions per heap region 1 cards per card region 2048
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes loaded (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Events (1 events):
+Event: 0.204 Loaded shared library C:\Program Files\Java\jdk-18.0.2.1\bin\java.dll
+
+
+Dynamic libraries:
+0x00007ff650170000 - 0x00007ff650180000 	C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe
+0x00007fff2f830000 - 0x00007fff2fa28000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007fff2eef0000 - 0x00007fff2efad000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007fff2d300000 - 0x00007fff2d5f6000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007fff2d200000 - 0x00007fff2d300000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007fff25970000 - 0x00007fff2598a000 	C:\Program Files\Java\jdk-18.0.2.1\bin\VCRUNTIME140.dll
+0x00007fff27de0000 - 0x00007fff27df8000 	C:\Program Files\Java\jdk-18.0.2.1\bin\jli.dll
+0x00007fff2ee10000 - 0x00007fff2eebe000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007fff2f0e0000 - 0x00007fff2f17e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007fff2f180000 - 0x00007fff2f21c000 	C:\WINDOWS\System32\sechost.dll
+0x00007fff2efb0000 - 0x00007fff2f0d6000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007fff2f290000 - 0x00007fff2f42e000 	C:\WINDOWS\System32\USER32.dll
+0x00007fff2cf80000 - 0x00007fff2cfa2000 	C:\WINDOWS\System32\win32u.dll
+0x00007fff2eec0000 - 0x00007fff2eeec000 	C:\WINDOWS\System32\GDI32.dll
+0x00007fff2d050000 - 0x00007fff2d16a000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007fff2cfb0000 - 0x00007fff2d04d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007fff19fb0000 - 0x00007fff1a24a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e\COMCTL32.dll
+0x00007fff221f0000 - 0x00007fff221fa000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007fff2f680000 - 0x00007fff2f6b0000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007fff29ea0000 - 0x00007fff29eac000 	C:\Program Files\Java\jdk-18.0.2.1\bin\vcruntime140_1.dll
+0x00007fff1c0b0000 - 0x00007fff1c13d000 	C:\Program Files\Java\jdk-18.0.2.1\bin\msvcp140.dll
+0x00007ffecf5b0000 - 0x00007ffed01c1000 	C:\Program Files\Java\jdk-18.0.2.1\bin\server\jvm.dll
+0x00007fff2df60000 - 0x00007fff2df68000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007fff25260000 - 0x00007fff25269000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007fff2eda0000 - 0x00007fff2ee0b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007fff051a0000 - 0x00007fff051c7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007fff2b730000 - 0x00007fff2b742000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007fff25850000 - 0x00007fff2585a000 	C:\Program Files\Java\jdk-18.0.2.1\bin\jimage.dll
+0x00007fff2b450000 - 0x00007fff2b634000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007fff155b0000 - 0x00007fff155e4000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007fff2d170000 - 0x00007fff2d1f2000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007fff25940000 - 0x00007fff25965000 	C:\Program Files\Java\jdk-18.0.2.1\bin\java.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e;C:\Program Files\Java\jdk-18.0.2.1\bin\server
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 --module-path=D:\UDMP-Java\Bai Tap\Duan\build\classes 
+java_command: EduSys.ui.MainJFrame
+java_class_path (initial): D:\Java3\BT\DemoCSDL\sqljdbc_9.4\enu\mssql-jdbc-9.4.1.jre16.jar;D:\UDMP-Java\Bai Tap\Duan\build\classes
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 67108864                                  {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 1050673152                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 8388608                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5832780                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122912730                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122912730                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 1050673152                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags foldmultilines=false
+ #1: stderr all=off uptime,level,tags foldmultilines=false
+
+Environment Variables:
+JAVA_HOME=D:\Java 1\JDK\jdk 19
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KIM NGAN\AppData\Local\Microsoft\WindowsApps;;C:\Users\KIM NGAN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin
+USERNAME=KIM NGAN
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 10 , 64 bit Build 19041 (10.0.19041.3393)
+OS uptime: 0 days 8:16 hours
+
+CPU: total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 142 stepping 9 microcode 0xea, cx8, cmov, fxsr, ht, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, adx, fma, vzeroupper, clflush, clflushopt
+
+Memory: 4k page, system-wide physical 4001M (113M free)
+TotalPageFile size 16289M (AvailPageFile size 6M)
+current process WorkingSet (physical memory assigned to process): 9M, peak: 9M
+current process commit charge ("private bytes"): 13M, peak: 14M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (18.0.2.1+1-1) for windows-amd64 JRE (18.0.2.1+1-1), built on Aug 16 2022 01:46:33 by "mach5one" with MS VC++ 16.8 / 16.9 (VS2019)
+
+END.

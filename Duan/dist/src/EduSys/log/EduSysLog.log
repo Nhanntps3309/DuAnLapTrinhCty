@@ -1,0 +1,42 @@
+2023-10-13 13:46:39 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 13:57:20 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 13:57:44 INFO  HocVienJDialog:430 - Cập nhật điểm MaChuyenDe: AI1   MaKhoaHoc: 1020MaHocVien: 2078 điểm hiện tại 10.0 điểm mới: 10.0
+2023-10-13 14:01:44 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 14:01:56 INFO  HocVienJDialog:428 - Cập nhật điểm MaChuyenDe: AI1   MaKhoaHoc: 1020 MaHocVien: 2079 điểm hiện tại: 0.0 điểm mới: 7.0
+2023-10-13 14:19:16 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 14:19:19 ERROR NguoiHocJDialog:561 - Lỗi lấy danh sách người học. date must not be null
+2023-10-13 14:56:08 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 14:56:10 ERROR KhoaHocJDialog:451 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 14:57:14 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 14:57:18 ERROR KhoaHocJDialog:451 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:43:59 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 15:44:02 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:45:59 WARN  DangNhapJDialog:230 -  Người dùng nhập đúng tên đăng nhập NghiemN nhưng sai mật khẩu!
+2023-10-13 15:46:04 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 15:46:06 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:46:37 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:49:21 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:50:18 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 15:50:19 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 15:50:22 ERROR KhoaHocJDialog:500 - Lỗi lấy danh sách khóa học.date must not be null
+2023-10-13 16:10:16 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:10:18 ERROR NguoiHocJDialog:561 - Lỗi lấy danh sách người học. date must not be null
+2023-10-13 16:13:36 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:15:34 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:18:07 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:20:09 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:21:48 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:24:43 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:28:46 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:31:02 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:36:38 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:38:34 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:41:46 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:47:28 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:51:33 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 16:57:47 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 17:04:27 WARN  DangNhapJDialog:230 -  Người dùng nhập đúng tên đăng nhập NghiemN nhưng sai mật khẩu!
+2023-10-13 17:04:31 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 17:05:45 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 17:08:32 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!
+2023-10-13 17:23:31 INFO  EduSysJFrame:574 - Nhân viên: NghiemN đăng nhập hệ thống!

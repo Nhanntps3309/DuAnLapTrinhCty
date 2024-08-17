@@ -1,0 +1,23 @@
+.cot{
+    width: 1300px;
+    height: 500px;
+    background-color: none;
+    display: flex;
+}
+.menu{
+    width: 180px;
+    height: 500px;
+    background-color: none;
+}
+.logo{
+    width: 1000px;
+    height: 500px;
+    background-color: none;
+}
+img{
+    position: relative;
+    top: -120px;
+}
+li {
+    margin: 5px;
+}
